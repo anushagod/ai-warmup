@@ -8,9 +8,12 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "anyio>=4.14.2",
+    "awslabs-aws-api-mcp-server>=1.5.4",
     "boto3>=1.43.80",
     "fastmcp>=4.0.2",
     "litellm>=1.98.0",
+    "mcp>=2.1.1",
     "python-dotenv>=1.2.3",
 ]
 
