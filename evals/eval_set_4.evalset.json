@@ -1,0 +1,137 @@
+{
+  "eval_set_id": "eval_set_4",
+  "name": "eval_set_4",
+  "eval_cases": [
+    {
+      "eval_id": "where_is_my_oder_34567",
+      "conversation": [
+        {
+          "invocation_id": "e-eee126f7-5f7c-4ed5-a65b-04e7e84daf94",
+          "user_content": {
+            "parts": [
+              {
+                "text": "where is my oder 12345"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Your order 12345 has been shipped and is arriving tomorrow via FedEx.",
+                "thought_signature": "EmgKZgFpFH0TEOlZkxXvcOEm0cpeDvEccv9IIJqYtf7KKOiYGWtuSDsDWWnQTTWRXhylt_XEjuZ_YnFlW4Niqc-2eQm4O1hNF_mx4ORGs2Vaq5dTgjC7NR3mDOklXNvTgngIPToMpuHp1Q=="
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {
+            "invocation_events": [
+              {
+                "author": "SupportAgent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_call": {
+                        "id": "call_787284",
+                        "args": {
+                          "order_id": "12345"
+                        },
+                        "name": "check_order_status"
+                      },
+                      "thought_signature": "Eq4CCqsCAWkUfRNOckhyuli8eBAbUDYvYWNZ3ClOkNUsm-UV3iq4_F3-Finsc4Tj8DDZK1uj_nZ09h2grL6CTAITUzd7LjKqXFl5qBzjb0pUNh2M30zaFGrYnTo7slJTP_spSJ81I0S1LdOlZcX6zK0-DOVC7IUoRzXyKTJy4tUXty423qtkWsmS_U8A0IAztNUcFny9mfaZdeXbtWBkGzidO3xS9sgJA6uc0De4RHiZG10xbKSoDQXRk1urVQ8aCZexnUb1PXlW7W2u9gy91kX98h6zBY2LB8ghhq4L-UGDP_YKjmLLdrpnPZJHRU4Do4ZStGki5RaR13ZPLLNOBt0qUIQXZPP_5U4mRvnSiWt7vJelivM9oyAgRYc3F_SYzQsZkMxa9UJdvPHR_bpQWvA="
+                    }
+                  ],
+                  "role": "model"
+                }
+              },
+              {
+                "author": "SupportAgent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_response": {
+                        "id": "call_787284",
+                        "name": "check_order_status",
+                        "response": {
+                          "result": "Shipped. Arriving tomorrow via FedEx."
+                        }
+                      }
+                    }
+                  ],
+                  "role": "user"
+                }
+              }
+            ]
+          },
+          "creation_timestamp": 1791420548.847532
+        },
+        {
+          "invocation_id": "e-17824edb-ccb5-4e58-8066-86b5eec6b2cb",
+          "user_content": {
+            "parts": [
+              {
+                "text": "where is my order 34567"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "It looks like order ID 34567 could not be found. Please double-check the order number and try again.",
+                "thought_signature": "EmgKZgFpFH0T7v2kINPgWpFxoVf9PKB00_SQll0VZaHjdn3ox0ey2s_B7MkZsbYdafNFOpnsLSNj4pO137yYv-Zfhp3YsPhXqpyDFZvzEP91R2BZg0uPjKvsdDDHZ5zZvb9tugCCSRz1iQ=="
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {
+            "invocation_events": [
+              {
+                "author": "SupportAgent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_call": {
+                        "id": "call_811102",
+                        "args": {
+                          "order_id": "34567"
+                        },
+                        "name": "check_order_status"
+                      },
+                      "thought_signature": "Eq4CCqsCAWkUfRMQ3KebuacBlniBopYNdiUBINSwK5-oBSy8e9FIzXdl8yo5caUCN-DUJMrWX9wNbcfc76Amb3hTTDGN-YWSFx3L6FtHQvH-GkS9E5jerXTURmLhcuqmt33zwPlcLk1xIWMIj2CqZ22YtDaurKOH4gYd5C2_pkNVObS6GuhUAmivjQxhhyCTNou58-F5rKFnkLqoCBg3xszDgkfnzqlY2HdiiqUsfqSSIL3Z9HL2A3oQ0EBVnSyyR4esBrRg3wQvBmYFzDzeJh5vFZ4VM4a9A5tKnbtqhmyxxyWLcIpYdgBj2S8Kl7TBVcGnX_hYaKR1Kpp4-w-r1ni923Wv53GFDILGyJ8WBZcohlaqe_o1zpZV4ki9Ur039KWC_HixOV19xt8Edv4UMxY="
+                    }
+                  ],
+                  "role": "model"
+                }
+              },
+              {
+                "author": "SupportAgent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_response": {
+                        "id": "call_811102",
+                        "name": "check_order_status",
+                        "response": {
+                          "result": "Order ID not found."
+                        }
+                      }
+                    }
+                  ],
+                  "role": "user"
+                }
+              }
+            ]
+          },
+          "creation_timestamp": 1791420611.218411
+        }
+      ],
+      "session_input": {
+        "app_name": "evals",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1791420664.857352
+    }
+  ],
+  "creation_timestamp": 1791420629.974545
+}

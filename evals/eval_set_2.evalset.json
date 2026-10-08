@@ -1,0 +1,137 @@
+{
+  "eval_set_id": "eval_set_2",
+  "name": "eval_set_2",
+  "eval_cases": [
+    {
+      "eval_id": "___eval___session___7c0343d7-05fc-4134-a583-87ea2a418ca1",
+      "conversation": [
+        {
+          "invocation_id": "e-e1f2eb42-d8d4-4ed3-adfc-f477e88cb029",
+          "user_content": {
+            "parts": [
+              {
+                "text": "where is order 12345?"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Your order 12345 has been shipped and is scheduled to arrive tomorrow via FedEx.",
+                "thought_signature": "EmgKZgFpFH0TAkyxThJlFAX5l9GWRCDzyK8soP7tLbgOOgeEp66WGLmwb7sviTDwNxdF7IKYEW-tDijLBUN5adedd1OUuOH3r-bvo8ofJE66xnP72NyeAD6dY4Ezy3ucwkll8ynguv5Chw=="
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {
+            "invocation_events": [
+              {
+                "author": "SupportAgent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_call": {
+                        "id": "call_529868",
+                        "args": {
+                          "order_id": "12345"
+                        },
+                        "name": "check_order_status"
+                      },
+                      "thought_signature": "EsACCr0CAWkUfRPHbUMn_NThhy4BVxUoTJV_El3aoU8gGa4i9EtFWuGXAjNfpcQn-JnMTJSCVj5WXgrEpWdA8S5R3F6xSMTUxN5NU5i7OQo5GkoSXhsK0sZikQRfdbY-Kewc4aOld4nSJeekG7YPyq6cSryjM1f-BBHZ0De1ZtZPRNOkyz1NcEnLwuAaiPwP7dQ1CkSDoIkQi8Q8sfMg0tR8MQkCLeN0RggxBasqO2Xb8M1vTV0ilnBZBn2o8WgSjBeNN6n715VKRjqM88vmGh7k-aW5OI5bEMlQYF0CP0sh6hkvbdpijn5awS7c37OamD2wVOb2VyZLGAzt_WVv27z26Mi732yjNRAIwisxPKVdGi8IIassP0aRm8I_4Ht0UrTr2IPLckjRJkhxFWye8Kss5oU1Jgplpx8_i4UthQKOPdU="
+                    }
+                  ],
+                  "role": "model"
+                }
+              },
+              {
+                "author": "SupportAgent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_response": {
+                        "id": "call_529868",
+                        "name": "check_order_status",
+                        "response": {
+                          "result": "Shipped. Arriving tomorrow via FedEx."
+                        }
+                      }
+                    }
+                  ],
+                  "role": "user"
+                }
+              }
+            ]
+          },
+          "creation_timestamp": 1791417662.5450182
+        },
+        {
+          "invocation_id": "e-c99a7b0c-9850-4979-a74f-3c829860aa7a",
+          "user_content": {
+            "parts": [
+              {
+                "text": "where is my order 34567"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "It looks like order 34567 could not be found. Could you please double-check the order number and try again?",
+                "thought_signature": "EsYBCsMBAWkUfRP1Ek5MpSEPIYvf3e9rbz0h3QU7ZYL5euVz14WjSOgglO9h86Q5p-IaXLvxWswL3C_suLz1zTv2zmYTM6nVZVdSGco-zRw7bnmZb-J6l6j9KGjJpWxt-4pj43FYDdGZSYVBm2lfcYqWBlL_UgFPdyZYaTzboM0KbiiQ5InW6tQaOac1pqWgATT-SjPVkwmlQPtlT7_ANjqM-XKplb014lxgIoX6dN6mlKa7CfVi7513j6oL0f3okX7eYY8fXCKd"
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {
+            "invocation_events": [
+              {
+                "author": "SupportAgent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_call": {
+                        "id": "call_724253",
+                        "args": {
+                          "order_id": "34567"
+                        },
+                        "name": "check_order_status"
+                      },
+                      "thought_signature": "EpkCCpYCAWkUfRO0IFW0fNnZMqsoPtmXA157W4Naa6dnECfmDOpmTW-W9OlKGm8xluIJgcjl9v3gQr1PLA-1eIPqWJyrqc2gjYFBWLV3gKP8IfgCN320EbVMSAz-9DjJFM753bK_mScKN6tHteKvDmiPKDHKpTj0Va-f4MPeggBQnDRuksVXHrP-_U3fszdcqzfdl6Z0yT1akvPLLh9gvvbk22h1P2Hn6DkSEnNrP6XVzklooqbVVBkKqkHA3SlJ42_WxvFaKTkjgByJVQfBatGxyKu74Syh9VQpzoUEJTMOOIh1aP9Kx1IDEFs25RWTY8LuMRUj29er_CtWa5RDtT1Sq2oIT7oCJsBtXzuZ3Tvp5Axnof-oWSddWFI="
+                    }
+                  ],
+                  "role": "model"
+                }
+              },
+              {
+                "author": "SupportAgent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_response": {
+                        "id": "call_724253",
+                        "name": "check_order_status",
+                        "response": {
+                          "result": "Order ID not found."
+                        }
+                      }
+                    }
+                  ],
+                  "role": "user"
+                }
+              }
+            ]
+          },
+          "creation_timestamp": 1791417794.401097
+        }
+      ],
+      "session_input": {
+        "app_name": "evals",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1791417831.7182112
+    }
+  ],
+  "creation_timestamp": 1791417823.08289
+}

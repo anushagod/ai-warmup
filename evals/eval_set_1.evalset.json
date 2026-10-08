@@ -1,0 +1,77 @@
+{
+  "eval_set_id": "eval_set_1",
+  "name": "eval_set_1",
+  "eval_cases": [
+    {
+      "eval_id": "where_is_order_12345",
+      "conversation": [
+        {
+          "invocation_id": "e-429bfffa-09b0-473f-9fb1-37ee0b5f1de3",
+          "user_content": {
+            "parts": [
+              {
+                "text": "where is order 12345?"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Order 12345 has been shipped and is scheduled to arrive tomorrow via FedEx.",
+                "thought_signature": "EuEBCt4BAWkUfRMphanmy_Wc8XCYZMwAryWzQHeuqZBvYbvRskUD5vX3qy0XT8_sj7h8l3S04Mc237c0VeQG52V60SBVJFQKkw5YTzJrb0alxaLGSrsW6x8hcrOIskkOaETuL6lPVQDLHVdrrRu7UG_wk1makTLC3NjxFlFYrszYemLe95B1EeSjEfFJ_GLUBPNqV34pOYCVytN1cy1V95W-cJI6Oh9zbDKWhS0K5jX3vwvLyXh6077Lshi7m6zIRTpKn4yjz0Ql5uUbjOPv8lEqFCpXIYvPmIMn6QncbLQDmSXb"
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {
+            "invocation_events": [
+              {
+                "author": "SupportAgent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_call": {
+                        "id": "call_493848",
+                        "args": {
+                          "order_id": "12345"
+                        },
+                        "name": "check_order_status"
+                      },
+                      "thought_signature": "Er4CCrsCAWkUfRN7g5F09FLlUl8FMom7ag77jkHi6y7FtMQASURjak5ZTpa9tjhitf18u_T7C7tNjwghauNQltvUjdftO06m7tIGYcsC-ilX9_j8vFO8ewJbwLTLTkV5sMuJOahhDSWTT_e7cfmCoJfvR_YiE38rSxOo7pmxLdVsV5th_wNS1FIbDTiPw3gvABWHW_BF-Hvt8uO1nOYBWk3T05otIHmatckJfHKfegnHqcEXkVV4Ja88IEEImPdMMt9xRNbXZbykwqDdV5kNc9WWCl5pjVnjLQ7M_rgoQ31Rc26WWcwoilqKd5A03oghzapAQMiwgQPDkEcYOTFEcJMpBZLJBJU_O0P-3U96NM2OP4N_D10KI_ZJzPuQ1Zws4cYsZdjeXGlZEcom5-AGyZx9iHsiAWHETGxqGEYVkXBk"
+                    }
+                  ],
+                  "role": "model"
+                }
+              },
+              {
+                "author": "SupportAgent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_response": {
+                        "id": "call_493848",
+                        "name": "check_order_status",
+                        "response": {
+                          "result": "Shipped. Arriving tomorrow via FedEx."
+                        }
+                      }
+                    }
+                  ],
+                  "role": "user"
+                }
+              }
+            ]
+          },
+          "creation_timestamp": 1791417144.652034
+        }
+      ],
+      "session_input": {
+        "app_name": "evals",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1791417356.9434052
+    }
+  ],
+  "creation_timestamp": 1791417345.358827
+}

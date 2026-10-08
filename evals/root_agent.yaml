@@ -1,0 +1,2 @@
+name: SupportAgent
+entrypoint: agent:root_agent
