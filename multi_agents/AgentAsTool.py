@@ -56,5 +56,6 @@ def query_root_agent(session_id: str, prompt: str):
 
 # call the runner
 session = create_session()
-query_root_agent(session.id, "What is the capital of France?")
-query_root_agent(session.id, "What is the capital of USA?")
+# query_root_agent(session.id, "What is the capital of France?")
+# query_root_agent(session.id, "What is the capital of USA?")
+query_root_agent(session.id, "What is the stock price of Google today?")
